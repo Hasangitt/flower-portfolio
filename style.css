@@ -37,7 +37,7 @@ button{
         background-color: #04AA6D;
         border: none;
         color: white;
-        padding: 16px 32px;
+        padding: 18px 32px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -210,3 +210,147 @@ button{
     background-color: #f44336;
     color: white;
   }
+
+
+
+
+  /* instagram section */
+
+  .instagram{
+    margin: 0px 312px;
+}
+
+
+    .i-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+
+  .i-description{
+    color: rgba(39, 39, 39, 0.60);
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 36px;
+  }
+
+.i-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 130px;
+    gap: 10px;
+}
+  .i-img div img{
+    width: 100%;
+}
+
+
+/* instagram last section */
+
+.i-last-sec{
+    width: 100%;
+    height: 449px;
+    background: url(images/Rectangle\ 9.png);
+    border-radius: 8px;
+    margin-bottom: 130px;
+}
+
+.i-l-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 124px;
+    margin-bottom: 16px;
+}
+
+.i-l-des{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 48px;
+}
+
+form{
+    justify-content: center;
+    padding-left: 220px;
+}
+
+input[type=text] {
+    padding: 20px 513px 20px 20px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 2px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+
+.button2 {
+    background-color: rgb(255, 60, 0); 
+    color: rgb(255, 255, 255); 
+    border: 1px solid #000000;
+}
+.button2:hover {
+    background-color: #00aee8;
+    color: white;
+    transition: 0.5s;
+}
+
+
+
+
+
+/* footer section */
+
+.footer{
+    background: #111010;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+
+.footer-title{
+    color: #E55473;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.span-1{
+    color: white;
+}
+
+
+.footer-des{
+    color:#a4b0be;
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 65px;
+}
+
+
+.page-right{
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+  
+.span-2{
+    color: #fdcb6e;
+   
+}
+
+.span-3{
+    color: #fdcb6e;
+    
+}
+
+
+
+/* end */
